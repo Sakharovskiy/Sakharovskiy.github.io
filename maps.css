@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    background-color: #0b0d0d;
+    font-family: 'Poppins', serif;
+    color: azure;
+}
+
+
+header {
+    margin-top: 23px;
+    margin-left: 8px;
+}
+
+#name {
+    display: inline-block;
+    position: static;
+    font-size: 30px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+  
+#icon {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+  
+.name_and_icon {
+    display: inline-block;
+    padding-left: 15px;
+} 
+  
+nav {
+    display: inline-block;
+    position: static; 
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-left: 9.9%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #3992ff;
+    border-radius: 10px;
+}
+
+section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#globe {
+    margin-left: -350px;
+    margin-bottom: -46px;
+}
+
+.boxes {
+    display: inline-block;
+    margin-left: 11.8%
+}
+
+.box1 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#fseason {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#ql_logo {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -236.5px;
+}
+
+.box1 > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #A8DBFF;
+    margin-top: -130px;
+    text-shadow: 2px 2px 8px #000000da;
+}   
+
+.btn1 {
+    background-color:#A8DBFF;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bolder;
+    padding: 8px;
+    width: 180px;
+    font-family: 'Poppins', serif;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    box-shadow:  0 4px 8px 0 #0000007e, 0 6px 20px 0 #000000ad;
+}
+
+.box2 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#sseason {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.box2 > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFDE5F;
+    margin-top: -130px;
+    text-shadow: 2px 2px 8px #000000da;
+}   
+
+.btn2 {
+    background-color:#FFDE5F;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bolder;
+    padding: 8px;
+    width: 180px;
+    font-family: 'Poppins', serif;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    box-shadow:  0 4px 8px 0 #0000007e, 0 6px 20px 0 #000000ad;
+}
+
+.box3 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#tseason {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.box3 > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #E1B9FF;
+    margin-top: -130px;
+    text-shadow: 2px 2px 8px #000000da;
+}   
+
+.btn3 {
+    background-color:#E1B9FF;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bolder;
+    padding: 8px;
+    width: 180px;
+    font-family: 'Poppins', serif;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    box-shadow:  0 4px 8px 0 #0000007e, 0 6px 20px 0 #000000ad;
+}
+
+#a_logo {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -236.5px;
+}
+
+
+
+
+
+
+footer {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 160px;
+}
+
+#contact {
+  margin-left: 7%;
+  margin-top: -30px;
+}
+
+#returns {
+  margin-left: 7%;
+  margin-top: -30px;
+}
+
+#copyright {
+  margin-left: 27%;
+  margin-top: -30px;
+}
+
+footer > a:link {
+  color: rgb(79, 79, 79);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+footer > a:visited {
+  color: rgb(79, 79, 79);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+footer > a:hover {
+  color: rgb(94, 94, 94);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+footer > a:active {
+  color: rgb(199, 199, 199);
+  background-color: transparent;
+  text-decoration: underline;
+}
